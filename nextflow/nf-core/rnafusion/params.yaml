@@ -1,0 +1,6 @@
+# Input/output
+input: samplesheet.csv
+outdir: rnaseq_results
+
+# References
+genomes_base: /storage/userdata/clinical-genomics/references/rnafusion

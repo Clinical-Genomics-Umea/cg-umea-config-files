@@ -1,0 +1,21 @@
+version: 1
+pipelines:
+  - name: nf-core/rnaseq
+    version: "3.26.0"
+    engine: nextflow
+    profiles:
+      - ./nextflow/nf-core/cg.config
+    config_files:
+      - ./nextflow/nf-core/rnaseq/rnaseq.config
+    param_files:
+      - ./nextflow/nf-core/rnaseq/params.yaml
+
+  - name: nf-core/rfusion
+    version: "4.1.3"
+    engine: nextflow
+    profiles:
+      - ./nextflow/nf-core/cg.config
+    config_files:
+      - ./nextflow/nf-core/rnafusion/rnafusion.config
+    param_files:
+      - ./nextflow/nf-core/rnafusion/params.yaml
