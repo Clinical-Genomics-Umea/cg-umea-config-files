@@ -1,0 +1,8 @@
+# Input/output
+input: samplesheet.csv
+outdir: rnaseq_results
+
+# References
+fasta: /storage/userdata/clinical-genomics/references/rnaseq/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz
+gtf: /storage/userdata/clinical-genomics/references/rnaseq/Homo_sapiens.GRCh38.116.gtf.gz
+igenomes_ignore: true
