@@ -5,4 +5,6 @@ outdir: rnaseq_results
 # References
 fasta: /storage/userdata/clinical-genomics/references/rnaseq/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz
 gtf: /storage/userdata/clinical-genomics/references/rnaseq/Homo_sapiens.GRCh38.116.gtf.gz
+salmon_index: /storage/userdata/clinical-genomics/references/rnaseq/salmon_index_20260907
+star_index: /storage/userdata/clinical-genomics/references/rnaseq/star_index_20260907
 igenomes_ignore: true
