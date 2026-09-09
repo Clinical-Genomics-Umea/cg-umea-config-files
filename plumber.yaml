@@ -10,7 +10,7 @@ pipelines:
     param_files:
       - ./nextflow/nf-core/rnaseq/params.yaml
 
-  - name: nf-core/rfusion
+  - name: nf-core/rnafusion
     version: "4.1.3"
     engine: nextflow
     profiles:
