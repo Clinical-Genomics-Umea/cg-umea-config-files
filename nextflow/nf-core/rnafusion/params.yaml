@@ -9,3 +9,4 @@ genomes_base: /storage/userdata/clinical-genomics/references/rnafusion
 tools: arriba,fusioncatcher,ctatsplicing,starfusion,fusionreport,fastp,fusioninspector
 no_cosmic: true
 skip_qc: true
+publish_dir_mode: link
