@@ -7,6 +7,8 @@ fasta: /storage/userdata/clinical-genomics/references/rnaseq/Homo_sapiens.GRCh38
 gtf: /storage/userdata/clinical-genomics/references/rnaseq/Homo_sapiens.GRCh38.116.gtf.gz
 salmon_index: /storage/userdata/clinical-genomics/references/rnaseq/salmon_index_20260907
 star_index: /storage/userdata/clinical-genomics/references/rnaseq/star_index_20260907
+
+# params
 igenomes_ignore: true
 skip_markduplicates: true
 publish_dir_mode: 'link'

@@ -4,3 +4,8 @@ outdir: rnaseq_results
 
 # References
 genomes_base: /storage/userdata/clinical-genomics/references/rnafusion
+
+# params
+tools: arriba,fusioncatcher,ctatsplicing,starfusion,fusionreport,fastp,fusioninspector
+no_cosmic: true
+skip_qc: true
