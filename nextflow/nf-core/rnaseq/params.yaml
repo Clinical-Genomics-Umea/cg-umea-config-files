@@ -10,5 +10,4 @@ star_index: /storage/userdata/clinical-genomics/references/rnaseq/star_index_202
 
 # params
 igenomes_ignore: true
-skip_markduplicates: true
 publish_dir_mode: 'link'
